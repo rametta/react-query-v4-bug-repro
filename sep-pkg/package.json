@@ -1,0 +1,14 @@
+{
+  "name": "sep-pkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "rapini react-query v4 -p ./oas.yaml -o out -n rapini-rq-v4-repro"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rapini": "^2.0.0"
+  }
+}
